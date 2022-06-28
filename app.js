@@ -22,6 +22,6 @@ app.get('/', (req, res) =>{
     res.render('index', {title : 'On Time Delivery App'})
 })
 
-app.get('/', (req, res) =>{
+app.get('/docs', (req, res) =>{
     res.render('docs', {title : 'On Time Delivery App'})
 })
