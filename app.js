@@ -12,5 +12,5 @@ app.use(express.static('public'))
 app.use(morgan('dev'))
 
 app.get('/', (req, res) =>{
-    res.render('index')
+    res.render('index', {title : 'On Time Delivery App'})
 })
